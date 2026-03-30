@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Sponsor Enrollment-Gap Repeaters",
+  "slug": "ctgov-sponsor-enrollment-gap-repeaters",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-sponsor-enrollment-gap-repeaters",
+  "type": "methods",
+  "primary_estimand": "Enrollment-gap stock among older studies missing actual enrollment",
+  "summary": "A standalone E156 project on which named sponsors most often omit actual enrollment in older CT.gov study records.",
+  "body": "Which named sponsors most often leave older CT.gov study pages without actual enrollment, obscuring realized sample size after study closure? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. We defined an enrollment gap as missing actual enrollment among older closed studies, then ranked sponsors with at least 100 studies by stock and rate. AstraZeneca led the stock table at 240 studies, followed by Memorial Sloan Kettering Cancer Center at 223, Bristol-Myers Squibb at 112, and NIAID at 108. Eastern Cooperative Oncology Group had the highest large-sponsor enrollment-gap rate at 57.9 percent, while Gynecologic Oncology Group reached 47.1 percent and Wyeth/Pfizer 30.5 percent. Enrollment gaps obscure realized sample size even when a study is closed, making the maturity and credibility of older registry records harder to judge quickly. These counts reflect missing actual enrollment in registry records and do not by themselves establish concealment, error, or deliberate non-disclosure for readers.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named sponsors most often leave older CT.gov study pages without actual enrollment, obscuring realized sample size after study closure?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "We defined an enrollment gap as missing actual enrollment among older closed studies, then ranked sponsors with at least 100 studies by stock and rate."
+    },
+    {
+      "role": "Primary result",
+      "text": "AstraZeneca led the stock table at 240 studies, followed by Memorial Sloan Kettering Cancer Center at 223, Bristol-Myers Squibb at 112, and NIAID at 108."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Eastern Cooperative Oncology Group had the highest large-sponsor enrollment-gap rate at 57.9 percent, while Gynecologic Oncology Group reached 47.1 percent and Wyeth/Pfizer 30.5 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Enrollment gaps obscure realized sample size even when a study is closed, making the maturity and credibility of older registry records harder to judge quickly."
+    },
+    {
+      "role": "Boundary",
+      "text": "These counts reflect missing actual enrollment in registry records and do not by themselves establish concealment, error, or deliberate non-disclosure for readers."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Sponsor Enrollment-Gap Repeaters dashboard",
+    "data": "249,507 eligible older closed interventional studies with actual-enrollment gap stock and rate summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-sponsor-enrollment-gap-repeaters",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
+  ]
+}
